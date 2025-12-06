@@ -16,11 +16,13 @@ function App() {
       // counter = counter +1
       // counter = counter +1
       
-      // setCounter(counter)
-      setCounter(prevCounter=>prevCounter+1)
-      setCounter(prevCounter=>prevCounter+1)
-      setCounter(prevCounter=>prevCounter+1)
-      setCounter(prevCounter=>prevCounter+1)
+      setCounter(counter+1)
+      console.log(counter);
+      // setCounter(prevCounter=>prevCounter+1)
+      // setCounter(prevCounter=>prevCounter+1)
+      // setCounter(prevCounter=>prevCounter+1)
+      // setCounter(prevCounter=>prevCounter+1)
+      
     }else{
       return
     }
